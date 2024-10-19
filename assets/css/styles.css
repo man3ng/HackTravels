@@ -107,11 +107,14 @@ html, body {
             font-family: inherit;
             text-align: center;
             font-weight: 800;
+            font-size: xx-large;
         }
         .container #formElement p {
             font-family: inherit;
             text-align: center;
             font-size: large;
+            padding-bottom: 20px ;
+            padding-top: 5px;
         }
         .container #formElement label {
             display: flex;
