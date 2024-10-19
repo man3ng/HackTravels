@@ -94,7 +94,7 @@ html, body {
     height: 500px; */
 
 }
-    .container #tripForm {
+    .container #formElement {
         background-color: rgba(241, 238, 238, 0.815);
         border-radius: 10px;
         border: 2px solid #d4d2d2f5;
@@ -103,16 +103,22 @@ html, body {
         padding-right: 20px;
         padding-bottom: 5px;
     }
-        .container #tripForm h2 {
+        .container #formElement h2 {
+            font-family: inherit;
             text-align: center;
             font-weight: 800;
         }
-        .container #tripForm label {
+        .container #formElement p {
+            font-family: inherit;
+            text-align: center;
+            font-size: large;
+        }
+        .container #formElement label {
             display: flex;
             font-family: inherit;
             font-size: large;
         }
-        .container #tripForm input {
+        .container #formElement input {
             font-family: inherit;
             font-size: large;
             border: 2px solid #d4d2d2f5;
@@ -126,7 +132,7 @@ html, body {
             margin-top: 5px;
             margin-bottom: 20px;
         }
-        .container #tripForm textarea {
+        .container #formElement textarea {
             display: flex;
             font-family: inherit;
             font-size: large;
@@ -141,7 +147,7 @@ html, body {
             border-radius: 5px;
             box-sizing: border-box;
         }
-        .container #tripForm button {
+        .container #formElement button {
             font-family: inherit;
             font-size: large;
             background-color: orange;
@@ -155,6 +161,19 @@ html, body {
             padding-right: 15px;
             padding-top: 10px;
             padding-bottom: 10px;
-            font-size: medium;
             color: white;
+        }
+        .container #formElement select {
+            font-family: inherit;
+            font-size: large;
+            border: 2px solid #d4d2d2f5;
+            box-sizing: border-box;
+            border-radius: 5px;
+            width: 600px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 5px;
+            margin-bottom: 20px;
         }
