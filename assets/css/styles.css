@@ -45,6 +45,9 @@ html, body {
             margin-left: 5px;
             margin-right: 5px;
         }
+        #navbar .navButtons a:hover {
+            background-color: #e69500;
+        }
 
 /* Trip Container styling */
 .tripContainer {
@@ -63,10 +66,11 @@ html, body {
         margin-left: 10px;
         margin-right: 10px;
         padding: 10px;
-        background-color: #f9c499;
+        background-color: #5cb4fc;
         min-width: 10%;
         max-width: 39%;
         height: 45px;
+        box-shadow: 0px 2px 5px 3px rgba(252, 168, 13, 0.3);
         display: flex; /* use flex box */
         /* Center horizontally and vertically */
         align-items: center;
@@ -75,9 +79,10 @@ html, body {
         .tripContainer .tripBox h3 {
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
-            font-weight: bold;
+            font-weight: bolder;
             font-family: inherit;
-            font-size: larger;
+            font-size: x-large;
+            color: white;
         }
 
 /* Add Trip Form Styling */
@@ -95,9 +100,11 @@ html, body {
 
 }
     .container #formElement {
-        background-color: rgba(241, 238, 238, 0.815);
+        /* background-color: rgba(241, 238, 238, 0.815); */
+        background-color: #57b1fc;
         border-radius: 10px;
-        border: 2px solid #d4d2d2f5;
+        /* border: 2px solid #d4d2d2f5; */ /* change back to basic*/
+        border: 3px solid orange;
         padding-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
@@ -108,6 +115,7 @@ html, body {
             text-align: center;
             font-weight: 800;
             font-size: xx-large;
+            color: white;
         }
         .container #formElement p {
             font-family: inherit;
@@ -115,16 +123,19 @@ html, body {
             font-size: large;
             padding-bottom: 20px ;
             padding-top: 5px;
+            color: white;
         }
         .container #formElement label {
             display: flex;
             font-family: inherit;
             font-size: large;
+            color: white;
         }
         .container #formElement input {
             font-family: inherit;
             font-size: large;
-            border: 2px solid #d4d2d2f5;
+            /* border: 2px solid #d4d2d2f5; */
+            border: 2px solid orange;
             box-sizing: border-box;
             border-radius: 5px;
             width: 600px;
@@ -146,7 +157,8 @@ html, body {
             padding-bottom: 10px;
             margin-top: 5px;
             margin-bottom: 20px;
-            border: 2px solid #d4d2d2f5;
+            /* border: 2px solid #d4d2d2f5; */
+            border: 2px solid orange;
             border-radius: 5px;
             box-sizing: border-box;
         }
@@ -166,10 +178,14 @@ html, body {
             padding-bottom: 10px;
             color: white;
         }
+            .container #formElement button:hover {
+                background-color: #e69500;
+            }
         .container #formElement select {
             font-family: inherit;
             font-size: large;
-            border: 2px solid #d4d2d2f5;
+            /* border: 2px solid #d4d2d2f5; */
+            border: 2px solid orange;
             box-sizing: border-box;
             border-radius: 5px;
             width: 600px;
