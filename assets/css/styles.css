@@ -21,7 +21,7 @@ html, body {
 }
     #navbar .title {
         display: flex;
-        font-size: xx-large;
+        font-size: xxx-large;
         font-weight: bold;
         text-decoration: none;
         color: whitesmoke;
@@ -34,7 +34,7 @@ html, body {
         display: flex;
         margin-left: auto;
         color: whitesmoke;
-        font-size: x-large;
+        font-size: xx-large;
     }
         #navbar .navButtons a {
             color: inherit;
@@ -196,3 +196,23 @@ html, body {
             margin-top: 5px;
             margin-bottom: 20px;
         }
+/* Footer Styling */
+footer {
+    background-color: orange;
+}
+
+footer li:hover ~ li p {
+    animation: wave-animation 0.3s infinite;
+  }
+@keyframes wave-animation {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    75% {
+      transform: rotate(-15deg);
+    }
+  }
