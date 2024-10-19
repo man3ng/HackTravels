@@ -79,3 +79,82 @@ html, body {
             font-family: inherit;
             font-size: larger;
         }
+
+/* Add Trip Form Styling */
+
+.container {
+    display: flex; /* flexbox */
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Avenir', 'Montserrat', 'Corbel', 'URW Gothic', 
+                'Source Sans Pro', sans-serif;
+    border: none;
+    /* width: 500px;
+    height: 500px; */
+
+}
+    .container #tripForm {
+        background-color: rgba(241, 238, 238, 0.815);
+        border-radius: 10px;
+        border: 2px solid #d4d2d2f5;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+    }
+        .container #tripForm h2 {
+            text-align: center;
+            font-weight: 800;
+        }
+        .container #tripForm label {
+            display: flex;
+            font-family: inherit;
+            font-size: large;
+        }
+        .container #tripForm input {
+            font-family: inherit;
+            font-size: large;
+            border: 2px solid #d4d2d2f5;
+            box-sizing: border-box;
+            border-radius: 5px;
+            width: 600px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+        .container #tripForm textarea {
+            display: flex;
+            font-family: inherit;
+            font-size: large;
+            width: 600px;
+            padding-left: 15px;
+            padding-right: 10px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border: 2px solid #d4d2d2f5;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .container #tripForm button {
+            font-family: inherit;
+            font-size: large;
+            background-color: orange;
+            justify-items: center;
+            border: none;
+            border-radius: 5px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            width: 600px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: medium;
+            color: white;
+        }
