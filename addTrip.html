@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HackTravels</title>
+</head>
+<body>
+    <div id="navbar">
+        <div class="title">
+            <a href="index.html">HackTravels</a>
+        </div>
+        <div class="navButtons">
+            <a href="addTrip.html">Add Trip</a>
+            <a href="addActivity.html">Add Trip Activity</a>
+        </div>
+    </div>
+    <div class="tripContainer">
+        <div class="tripBox">
+            <h3>Trips</h3>
+        </div>
+        <div class="tripBox">
+            <h3>Activities</h3>
+        </div>
+    </div>
+    <div class="container">
+        <form id="tripForm">
+            <h2>Add a Trip</h2>
+            <label for="Destination">Destination</label>
+            <input type="text" id="destination" name="Destination" required>
+
+            <label for="StartDate">Start Date</label>
+            <input type="date" id="startDate" name="StartDate" required>
+
+            <label for="EndDate">EndDate</label>
+            <input type="date" id="endDate" name="EndDate" required>
+
+            <label for="JournalEntry">JournalEntry</label>
+            <textarea id="journalEntry" name="JournalEntry"></textarea>
+
+            <button type="submit">Add Trip</button>
+        </form>
+    </div>
+
+</body>
+</html>
